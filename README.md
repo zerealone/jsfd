@@ -29,7 +29,7 @@ This function **must** to be before the `message.code` function, to make this wo
 
 ## Functions List
 - `$authorID` - The interaction author id.
-- `$messageID` - The interaction message id.
+- `$messageID` - The interaction message id. 
 - `$botID` - The id of the bot.
 - `$channelID` - The id of the channel the interaction sent in.
 - `$guildID` - The id of the guild the interaction sent in.
