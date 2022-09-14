@@ -34,6 +34,15 @@ This function **must** to be before the `message.code` function, to make this wo
 - `$channelID` - The id of the channel the interaction sent in.
 - `$guildID` - The id of the guild the interaction sent in.
 - `$interactionName` - The name of the interaction used.
+- `$avatarUrl` - The url of the avatar of the interaction author. (Added in `0.17.0`)
+- `$year` - The current year. (Added in `0.17.0`)
+- `$month` - The current month. (Added in `0.17.0`)
+- `$fullDate` - The full date. (Added in `0.17.0`)
+- `$time` - The current time. (Added in `0.17.0`)
+- `$memberGuildIcon` - The icon of the author of the interaction in the guild (the custom avatar), if he have one.
+If the author does not have one, it will return the normal avatar of the user. (Added in `0.17.0`)
+- `$uptime` - The uptime in minutes, hours and seconds. (Added in `0.17.0`)
+- `$guildName` - The guild name. (Added in `0.17.0`)
 
 ## Issues?
 Go to the `issues` tab and report it there. If you need other help, or have any ideas, you can open an issue for an idea, or just DM me on discord : `ZeRealOne#3663`.
